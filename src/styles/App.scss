@@ -1,0 +1,17 @@
+@import './_variables.scss';
+
+//components
+@import '../components/header/_header.scss';
+@import '../components/box/_box.scss';
+
+//screens
+
+@import '../screens/home/_home.scss';
+@import '../screens/login/_login.scss';
+@import '../screens/register/_register.scss';
+@import '../screens/users/_user.scss';
+@import '../screens/list/_todolist.scss';
+@import '../screens/profile/_profile.scss';
+
+//style
+@import './_styles.scss'

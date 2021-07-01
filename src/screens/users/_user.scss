@@ -1,0 +1,9 @@
+.user-card {
+  &__delete-icon{
+    position: absolute;
+    width: 20px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+}

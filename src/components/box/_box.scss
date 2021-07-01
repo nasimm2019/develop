@@ -1,0 +1,10 @@
+.box {
+    width: 100%;
+    background: $white;
+    height: auto;
+    min-height: 150px;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    box-shadow: 0 0 10px $shadow-color;
+    padding: 20px;
+}

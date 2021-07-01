@@ -1,0 +1,32 @@
+.home {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  input {
+    width: 100%;
+    font-family: Roboto;
+  }
+
+  h1 {
+    font-family: Roboto;
+  }
+
+  &__searchboxWrapper {
+    background-color: #fff;
+    border-radius: 0.3rem;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 0.3rem 1rem rgba(8, 38, 78, 0.2);
+    width: 100%;
+
+    .reactGiphySearchbox-componentWrapper {
+      width: 100% !important;
+
+    }
+
+    .reactGiphySearchbox-listWrapper {
+      height: 600px !important;
+    }
+  }
+}
